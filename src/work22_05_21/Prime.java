@@ -1,3 +1,5 @@
+package work22_05_21;
+
 public class Prime {
 
     public static void main(String[] args) {
@@ -7,8 +9,8 @@ public class Prime {
         while (low < high) {
             boolean flag = false;
 
-            for(int i = 2; i <= low/2; ++i) {
-                if(low % i == 0) {
+            for (int i = 2; i <= low / 2; ++i) {
+                if (low % i == 0) {
                     flag = true;
                     break;
                 }

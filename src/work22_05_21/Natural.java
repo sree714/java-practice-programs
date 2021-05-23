@@ -1,25 +1,24 @@
+package work22_05_21;
 
 import java.util.*;
 
-class Natural {
+public class Natural {
 
 
-static void PrintReverseOrder(int n)
-{
+    static void PrintReverseOrder(int n) {
 
-	for (int i = n; i > 0; i--)
-		System.out.println( +i + " ");
-}
+        for (int i = n; i > 0; i--)
+            System.out.println(+i + " ");
+    }
 
-public static void main(String[] args)
-{
-    System.out.println("enter the max number:");
-    Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        System.out.println("enter the max number:");
+        Scanner sc = new Scanner(System.in);
 
-	int n = sc.nextInt();
-    System.out.println("Reverse order:");
+        int n = sc.nextInt();
+        System.out.println("Reverse order:");
 
-	PrintReverseOrder(n);
-}
+        PrintReverseOrder(n);
+    }
 }
 
