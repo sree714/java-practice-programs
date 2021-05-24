@@ -2,20 +2,15 @@
 package teach;
 
 public class Employee {
-    private int empId;
+
     private String name;
     private int age;
     private float salary;
 
-    public Employee(int empId, String name, int age, float salary) {
-        this.empId = empId;
+    public Employee( String name, int age, float salary) {
         this.name = name;
         this.age = age;
         this.salary = salary;
-    }
-
-    public int getEmpId() {
-        return empId;
     }
 
     public String getName() {
