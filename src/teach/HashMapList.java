@@ -16,10 +16,10 @@ public class HashMapList {
            else    if(i==2){
                 map.put(i, new Employee("Smrity", 21, 20000));
             }
-            else if(i==4){
+            else if(i==3){
                 map.put(i, new Employee("pqr", 24, 5000));
             }
-           else   if(i==5){
+           else   if(i==4){
                 map.put(i, new Employee("DEF", 24, 8000));
             }
 
