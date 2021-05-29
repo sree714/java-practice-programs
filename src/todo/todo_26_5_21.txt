@@ -1,0 +1,4 @@
+1. create a program which has a one model class name student with 4 value Name, Roll, Math score and English score.
+input 5 student data and show the student name base total sum of 2 subject score in sorted order.
+
+2. count number of odd element in array
