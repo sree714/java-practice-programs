@@ -1,0 +1,6 @@
+1. Read thread all method like join, getPriority like thread
+reference link for thread method - https://www.w3resource.com/java-tutorial/java-threadclass-methods-and-threadstates.php
+reference link for Thread - https://www.geeksforgeeks.org/multithreading-in-java/
+
+2. Program
+    Implement thread using Thread class and Runnable interface
