@@ -3,6 +3,7 @@ package classAssignment.assignment4;
 
 import java.util.Scanner;
 
+//9. Write a Java program to find the Multiplication of two Matrices.
 class MatrixMultiplication {
     public static void main(String args[]) {
         int m, n, p, q, sum = 0, c, d, k;
