@@ -7,13 +7,14 @@ public class StudentSort {
     private float engScore;
     private float total;
 
-    public StudentSort(String name, int roll, float mathScore,float engScore) {
+    public StudentSort(String name, int roll, float mathScore, float engScore) {
         this.name = name;
         this.roll = roll;
         this.mathScore = mathScore;
-        this.engScore=engScore;
-        this.total=mathScore+engScore;
+        this.engScore = engScore;
+        this.total = mathScore + engScore;
     }
+
     public String getName() {
         return name;
     }
@@ -25,11 +26,12 @@ public class StudentSort {
     public float getMathScore() {
         return mathScore;
     }
-    public float getEngScore(){
+
+    public float getEngScore() {
         return engScore;
     }
-    public float getTotal()
-    {
+
+    public float getTotal() {
         return total;
     }
 }
