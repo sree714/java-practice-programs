@@ -2,9 +2,8 @@ package Hackerrank;
 
 import java.util.*;
 import java.io.*;
- public class Calculator
- {
-    int power(int n , int p) throws Exception
+class Solution3{
+    static int power(int n, int p) throws Exception
     {
         if(n < 0 || p < 0)
         {
@@ -12,8 +11,6 @@ import java.io.*;
         }
         return (int)Math.pow(n,p);
     }
-}
-class Solution3{
 
     public static void main(String[] args) {
 
@@ -23,9 +20,8 @@ class Solution3{
 
             int n = in.nextInt();
             int p = in.nextInt();
-            Calculator myCalculator = new Calculator();
             try {
-                int ans = myCalculator.power(n, p);
+                int ans = power(n, p);
                 System.out.println(ans);
             }
             catch (Exception e) {
