@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "book": [
+    {
+      "id": 1,
+      "name": "Blue Umbrella",
+      "author": {
+        "id": 1,
+        "name": "Ruskin Bond",
+        "age": 60
+      },
+      "language": [
+        "english",
+        "bengali",
+        "hindi"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Man's search for Meaning",
+      "author": {
+        "id": 2,
+        "name": "Victor E .Frankel",
+        "age": 60
+      },
+      "language": [
+        "english"
+      ]
+    }
+  ]
+}
